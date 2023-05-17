@@ -29,8 +29,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author franc
  */
 @RestController
-@RequestMapping("/softskill")
-@CrossOrigin(origins = "https://portfoliofnc.web.app")
+@RequestMapping("softskill")
+@CrossOrigin(origins = "https://portfoliofnc.web.app/")
 public class CSoftSkill {
     @Autowired
     SSoftSkill sSoftSkill;
